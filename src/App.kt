@@ -2,15 +2,16 @@ val notes: MutableList<String> = mutableListOf()
 
 fun main() {
 
-    addToDo("Dest")
-    addToDo("Reicader")
-    addToDo("Delta")
-
-    deleteToDo(2)
-
-    editToDo(2, "Mid")
-
-    showData()
+    while (true) {
+        showData()
+        println("========================")
+        println("t. Tambah")
+        println("e. Edit")
+        println("r. Remove")
+        println("========================")
+        print("input: ")
+        val temp: String = readln()
+    }
 
 }
 
