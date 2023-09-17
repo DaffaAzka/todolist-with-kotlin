@@ -30,9 +30,9 @@ fun showData() {
     if (notes.isEmpty()) {
         println("Tidak ada note untuk saat ini!")
     } else {
-        var temp: Int = 1;
+        var temp = 1
         for (note in notes) {
-            print(temp++);
+            print(temp++)
             print(". $note")
             println("")
         }
